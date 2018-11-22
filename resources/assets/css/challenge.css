@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+  background: url('img/fondoch.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+    font-family: 'Merriweather Sans', sans-serif;
+ 
+}
+
+.navbar {
+    font-family: 'Muli', sans-serif;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+.mytitulo{  
+  padding-top: 1%;
+  text-align: center;
+}
+
+.mytitulo :hover{
+   transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }
+
+.mysubtitulo{
+    color: white;
+    padding-top: 8%;
+    text-align: center;  
+}
+
+.mysubtitulo :hover{
+    color: grey;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.mydescripcion{
+    padding-top: 5%;
+    color: white;
+}
+
+
+.myreglas1{
+    color: whitesmoke;
+    padding-top: 6%;
+}
+.myreglas1 h2{
+    color: whitesmoke;
+    
+    
+}
+
+
+.myreglas2{
+    color: whitesmoke;
+    padding-top: 6%;
+}
+.myreglas2 h1{
+    text-shadow: 2px 2px #FF0000;
+}
+
+
+.mypremi{
+    padding-top: 9%;
+    text-align: center;
+    font-size: 13px;
+    background: linear-gradient(#EEECB4, #FA9F00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.mypremi:hover{
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+
+.myejemplos{
+    color: whitesmoke;
+    text-shadow: 2px 2px #FF0000;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.botonx {
+margin: auto;
+}
+
+.myimagenes{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.myimagenesa{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.myimagenesb{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.myimagenesc{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.mylogo{
+    text-align: center;
+}
+
+
+
+#mandragora {
+        -webkit-animation: rotation 10s infinite linear;
+
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(359deg);
+        }
+}

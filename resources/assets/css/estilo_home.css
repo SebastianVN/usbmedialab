@@ -1,0 +1,74 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+body {
+	 font-family: "Verdana", Geneva, sans-serif;
+}
+
+
+.navbar {
+  background-color: #1a1a1a;
+  }
+ 
+/*Carrusel full width*/
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cont_center {
+margin: 0 auto;
+}
+
+#medios {
+ background-color: #cccccc;
+}
+
+#servicios {
+	background-color: white; 
+}
+#eventos {
+	background-color: #cccccc;
+}
+
+#miembros {
+ 
+}
+
+#contacto{
+  background-color: #cccccc;
+  }
+
+#redes {
+	 background-color: #cccccc;
+}
+
+/*Redes sociales*/
+.social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #ae025e; 
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  background-color: #650136;
+  text-decoration: none;
+
+}
+
+footer {
+	background-color: #1a1a1a;
+}

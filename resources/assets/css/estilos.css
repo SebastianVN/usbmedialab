@@ -1,0 +1,275 @@
+/*!
+
+HOJA DE ESTILOS USBMEDIALAB
+ */
+
+body {
+  padding-top: 54px;
+  background-color: #232323;
+  font-family: 'Orbitron', sans-serif;
+}
+/* quita el bordeado del elemento*/
+.card{
+   -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border :0;
+
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 1);
+  font-family: 'Muli', sans-serif;
+  transition: top 0.4s; /* Transition effect when sliding down (and up) */
+  }
+
+ /* Parallax Seccion  */
+.parallax {
+    /* The image used */
+    background-image: url('img/bg.jpg');
+
+    /* Full height */
+    height: auto;
+background-color: rgb(255,255,255); opacity: 1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('img/bg.jpg');
+
+    /* Full height */
+    height: auto;
+background-color: rgb(255,255,255); opacity: 1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('img/fondo3.jpg');
+
+    /* Full height */
+    height: auto;
+background-color: rgb(255,255,255); opacity: 1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url('img/fondo4.jpg');
+
+    /* Full height */
+    height: auto;
+background-color: rgb(255,255,255); opacity: 1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  /*.carousel-inner img {
+     height: 100%;
+     width:  100%;
+       }*/
+
+
+.carousel-control-prev {
+    
+    padding-bottom: 14%;
+}
+.carousel-control-next {
+    
+    padding-bottom: 14%;
+}
+.carousel-caption{
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 100%;
+    width: 40%;
+    left: 0;
+    top: 0;
+    text-align: left;
+    
+    padding: 3% 1.5%;
+    
+    color: whitesmoke;
+    
+    font-family: 'Russo One', sans-serif;
+}
+.carousel-caption h2{
+    color: orange;
+    font-size: 3vw;
+}
+.carousel-caption h3{
+    color: lightgray;
+    font-size: 1.5vw;
+    
+}
+.carousel-caption h5{
+    color: #7FFFD4;
+    
+    font-size: 2vw;
+}
+
+.carousel-caption p{
+    color: lightgray;
+    font-size: 1vw;
+    
+}
+.carousel-caption h4{
+    color: whitesmoke;
+    font-size: 1vw;
+}
+
+
+.btn{
+  size: 100%;
+    font-size: 1.5vw;
+}
+
+
+
+ 
+#myCarousel .list-inline {
+    padding-top: 3%;
+    padding-left: 12%;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+/*carousel*/
+
+.triopt-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
+@media (min-width: 992px) {
+  .triopt-item {
+    max-width: none;
+    margin: 0;
+  }
+  .triopt-item .caption {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .triopt-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .triopt-item img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .triopt-item:hover img {
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .triopt-item:hover .caption {
+    background-color: rgba(100, 128, 159, 0.5);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+}
+
+#sect {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+#sect2 {
+  font-family: 'Hammersmith One', sans-serif;
+  background-color: #003; 
+}
+#resumen {
+	background-color: #003;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Contacto */
+ 
+     .titletex{
+      color: white;
+       }
+    
+    .btn-primary{
+      background-color: #1D809F;
+     }
+     .col-ms-4{
+      padding: 3%;
+            }
+
+.capt {
+
+    background: linear-gradient(to right, black , rgba(0,0,0,0)); 
+}
+
+
+
+.social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #531431; 
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+  background-color: #95065c;
+  text-decoration: none;
+
+}
+ footer {
+      background-color: #001;
+  }
+
+  footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.desc {
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+
+}
