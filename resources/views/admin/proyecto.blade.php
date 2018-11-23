@@ -36,6 +36,7 @@ $proyectos = Proyecto::orderBy('id', 'desc')->get();
         </div>
         <div class="col-md-10">
             <div class="panel panel-inverse">
+<<<<<<< HEAD
                 <div class="panel-heading">
                     <div class="panel-heading-btn">
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i
@@ -46,6 +47,16 @@ $proyectos = Proyecto::orderBy('id', 'desc')->get();
                                 class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i
                                 class="fa fa-times"></i></a>
+=======
+                    <div class="panel-heading">
+                        <div class="panel-heading-btn">
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-repeat"></i></a>
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                        </div>
+                        <h4 class="panel-title">Proyectos usbmedialab Website</h4>
+>>>>>>> 3ce08670934378e5a31a7858b0d765470c35fa0d
                     </div>
                     <h4 class="panel-title">Usuarios 42ndStudio Website</h4>
                 </div>
@@ -212,7 +223,26 @@ $proyectos = Proyecto::orderBy('id', 'desc')->get();
             <script src="http://localhost/usbmedialab2/resources/assets/js/admin/admin_apps.min.js"></script>
             <script src="http://localhost/usbmedialab2/resources/assets/js/admin/admin_proyecto.js"></script>
 
+<<<<<<< HEAD
             <!-- ================== END PAGE LEVEL JS ================== -->
+=======
+@section('scripts')
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+    <meta name="_token" content="{!! csrf_token() !!}" />
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/jquery.dataTables.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.bootstrap.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.buttons.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.bootstrap.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.flash.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/jszip.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/pdfmake.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/vfs_fonts.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.html5.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.print.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.responsive.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/admin_apps.min.js"></script> 
+    <script src="http://localhost/usbmedialab/resources/assets/js/admin/admin_proyecto.js"></script>
+>>>>>>> 3ce08670934378e5a31a7858b0d765470c35fa0d
 
             <script>
                 $(document).ready(function () {

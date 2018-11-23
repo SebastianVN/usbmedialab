@@ -141,6 +141,10 @@ class AdminController extends Controller
         return view('admin.sent_messages', ['identifier' => $identifier]);
     }
 
+    public function semillero(){
+        return View('admin.semillero');
+    }
+
     public function social_media(){
         return View('admin.social_media');
     }

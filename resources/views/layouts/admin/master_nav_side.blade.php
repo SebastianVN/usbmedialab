@@ -34,7 +34,17 @@
 						    <span>Proyectos</span>
 					    </a>
 					</li>
+<<<<<<< HEAD
 					<!--<li class="has-sub">
+=======
+					<li>
+						<a href="{{ url('Mr_Administrator/semilleros') }}">
+						    <i class="fa fa-users"></i>
+						    <span>Semilleros</span>
+					    </a>
+					</li>
+					<li class="has-sub">
+>>>>>>> 3ce08670934378e5a31a7858b0d765470c35fa0d
 						<a href="javascript:;">
 						    <b class="caret pull-right"></b>
 						    <i class="fa fa-sitemap"></i>
