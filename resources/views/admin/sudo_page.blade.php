@@ -37,7 +37,7 @@ $content_box = ContentBox::where('page_id',$show_page->id)->orderBy('page_order'
             </ol>
             <!-- end breadcrumb -->
             <!-- begin page-header -->
-            <h1 class="page-header">SUDO Crear Regitros y Caja de Contenido<small>42nd Studio</small></h1>
+            <h1 class="page-header">SUDO Crear Registros y Caja de Contenidos<small>42nd Studio</small></h1>
             <!-- end page-header -->
             <div class="row">
             	<div class="col-md-4">

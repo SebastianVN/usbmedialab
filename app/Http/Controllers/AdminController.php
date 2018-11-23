@@ -121,7 +121,9 @@ class AdminController extends Controller
         return View('admin.messages');
     }
 
-
+    public function proyecto(){
+        return View('admin.proyecto');
+    }
     public function reports(){
         return View('admin.reports');
     }

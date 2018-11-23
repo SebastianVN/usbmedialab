@@ -18,7 +18,7 @@
 					<li>
 						<a href="{{ url('Mr_Administrator/sudo') }}">
 						    <i class="fa fa-users"></i>
-						    <span>SUDO Panel</span>
+						    <span>SUDO</span>
 					    </a>
 					</li>
 					@endif
@@ -26,6 +26,12 @@
 						<a href="{{ url('Mr_Administrator/users') }}">
 						    <i class="fa fa-users"></i>
 						    <span>Usuarios</span>
+					    </a>
+					</li>
+					<li>
+						<a href="{{ url('Mr_Administrator/proyectos') }}">
+						    <i class="fa fa-users"></i>
+						    <span>Proyectos</span>
 					    </a>
 					</li>
 					<li class="has-sub">

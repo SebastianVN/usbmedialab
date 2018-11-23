@@ -61,7 +61,8 @@ Route::group(['middleware' => 'admin'], function(){
         Route::post('/Mr_Administrator/deleteUser', 'AdminController@deleteUser');
         Route::post('/Mr_Administrator/newUser', 'AdminController@newUser');
         Route::post('/Mr_Administrator/search_user', 'AdminController@search_user');
-    
+        //Proyectos
+        Route::get('/Mr_Administrator/proyectos','AdminController@proyecto');
         //Galeria
         Route::get('/Mr_Administrator/gallery/{category_id?}', 'AdminController@gallery');
         Route::post('/Mr_Administrator/gallery/save_image', 'AdminController@save_image');

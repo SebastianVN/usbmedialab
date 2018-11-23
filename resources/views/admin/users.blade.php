@@ -24,9 +24,9 @@ $usuarios = User::orderBy('id', 'desc')->get();
 			</ol>
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Usuarios <small>42nd Studio</small></h1>
+			<h1 class="page-header">Usuarios <small>USB MediaLab</small></h1>
 			<!-- end page-header -->
-			
+			<button class="btn btn-primary btn-lg" id="crearProyecto" value="-1" type="button">Crear proyecto</button>
 			<!-- begin row -->
 			<div class="row">
                 <div class="panel panel-inverse">

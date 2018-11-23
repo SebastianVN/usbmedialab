@@ -1,9 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="es">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -32,17 +30,17 @@
       <div class="container-fluid ">
         <!--Icono navbar-->
       <a class="navbar-brand" href="#inicio">
-    <img src="http://localhost/usbmedialab/resources/assets/img/logom.png" alt="minilogo" width="80" height="auto">
-  </a>
+      <img src="http://localhost/usbmedialab/resources/assets/img/logom.png" alt="minilogo" width="80" height="auto">
+      </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Investigación
-        </a>
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Investigación
+            </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item text-primary disabled" href="#investigacion" >Semilleros</a>
           <a class="dropdown-item" href="animov"> Animov</a>
@@ -62,7 +60,7 @@
             <a class="dropdown-item text-primary disabled" href="#medios" >Medios</a>
             <a class="dropdown-item" href="tv">Medialab TV</a>
             <a class="dropdown-item" href="emisora">Emisora USB</a>
-        </div>
+          </div>
         </li>
             <li class="nav-item">
               <a class="nav-link " href="#eventos">Eventos</a>
@@ -115,8 +113,6 @@
     <header>
       @yield('slider')
     </header>
-
-
     <!-- Page Content -->
     @yield('content')
 

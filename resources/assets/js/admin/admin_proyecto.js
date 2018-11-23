@@ -1,6 +1,5 @@
 /*----Eliminado un usuario----*/
 $(document).ready(function() {
-	console.log("GOADOAÑDLABUBDO");
 	$.ajaxSetup({
 	    headers: {
 	        'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
@@ -25,9 +24,10 @@ $(document).ready(function() {
       ], responsive:!0
   }
   );
-  $('#crearProyecto').on('click',function(){
-	  console.log('HOLAAAAAAA');
-	});
+
+    $('#crearProyecto').on('click',function(){
+        $('#crear_proyecto').modal('show')
+    });
 	$('#data-table').on('click','.deleteUser', function(){
 		var user_id = $(this).val();
 		var formData = {
@@ -55,4 +55,3 @@ $(document).ready(function() {
 		});
 	});
 });
-/*----Creacion de Usuario----*/
