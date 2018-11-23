@@ -18,6 +18,8 @@
 	<link href="http://localhost/usbmedialab2/resources/assets/css/admin/animate.min.css" rel="stylesheet" />
 	<link href="http://localhost/usbmedialab2/resources/assets/css/admin/admin42_style.min.css" rel="stylesheet" />
 	<link href="http://localhost/usbmedialab2/resources/assets/css/admin/admin42_style-responsive.min.css" rel="stylesheet" />
+	<!--Icono title-->
+    <link rel="shortcut icon" type="image/x-icon" href="http://localhost/usbmedialab/resources/assets/img/icontitle.png" />
 	<!-- ================== END BASE CSS STYLE ================== -->
 	
 	@yield('head')

@@ -5,8 +5,8 @@
 				<!-- begin sidebar user -->
 				<ul class="nav">
 					<li class="nav-profile">
-						<div class="info">
-						</div>
+							<h3 class="text-white">{{ Auth::user()->name }}, {{ Auth::user()->level }}</h3>
+						
 					</li>
 				</ul>
 				<!-- end sidebar user -->

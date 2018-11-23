@@ -92,10 +92,17 @@
       								<form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
       								    {{ csrf_field() }}
       								</form>
-      							</li>
+                    </li>
+                    <li class="nav-item">
+                      @if(Auth::check())
+                      @if(Auth::user()->level >= 16)
+                        <a class="nav-link" href="/Mr_Administrator" >Administrador</a>
+                      @endif
+                      @endif
+                   </li>
                     @else
                     <li class="nav-item">
-                      <a class="nav-link " href="{{ route('login') }}"><span class="glyphicon glyphicon-user"></span>Iniciar sesión</a>
+                      <a class="nav-link " href="{{ route('login') }}"></span>Iniciar sesión</a>
                     </li>
                         @if (Route::has('register'))
                         <li class="nav-item">
@@ -105,6 +112,7 @@
                     @endauth
                 </div>
             @endif
+            
           </ul>
         </div>
       </div>

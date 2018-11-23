@@ -4,7 +4,7 @@
 			<div class="container-fluid">
 				<!-- begin mobile sidebar expand / collapse button -->
 				<div class="navbar-header">
-					<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> USB MediaLab</a>
+					<a href="index.html" class="navbar-brand"><img src="http://localhost/usbmedialab/resources/assets/img/logom.png" alt="minilogo" width="50" height="auto"></a>
 					<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -17,11 +17,12 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown navbar-user">
 						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+						{{ Auth::user()->name }}
 							 <b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu animated fadeInLeft">
 							<li class="arrow"></li>
-							<li><a href="{{ url('Mr_Administrator/messages') }}"> Inbox</a></li>
+							<li><a href="{{ url('home') }}">Principal</a></li>
 							<li class="divider"></li>
 							<li>
 								<a href="{{ url('/logout') }}"

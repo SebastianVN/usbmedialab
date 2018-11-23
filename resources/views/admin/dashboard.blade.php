@@ -18,14 +18,17 @@
 			</ol>
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Administrator Panel <small>42nd Studio</small></h1>
+			<h1 class="page-header">Administrator Panel <small>USB MediaLab</small></h1>
 			<!-- end page-header -->
 			<!-- begin row -->
 			<div class="row">
-				<div class="col-md-3 col-sm-4">
+			<div class="col-md-8 col-sm-8">
+					<h2>Bienvenido al Administrador</h2>
+					<img src="http://localhost/usbmedialab/resources/assets/img/main_quienes.jpg" alt="minilogo" width="78%" height="auto">
+				</div>
+				<div class="col-md-4 col-sm-4">
 			        <a href="{{ url('Mr_Administrator/users') }}">
-			        <div class="widget widget-stats bg-purple">
-			            <div class="stats-icon stats-icon-lg"><i class="fa fa-users fa-fw"></i></div>
+			        <div class="widget widget-stats bg-black">
 			            <div class="stats-title">Usuarios</div>
 			            <div class="stats-number"></div>
 			            <div class="stats-progress progress">
@@ -33,19 +36,27 @@
                         </div>
                         <div class="stats-desc">Ver Usuarios</div>
 			        </div>
-			        </a>
-			        <br>
-				</div>
-				<div class="col-md-3 col-sm-4">
-			        <a href="{{ url('Mr_Administrator/proyectos') }}">
-			        <div class="widget widget-stats bg-purple">
-			            <div class="stats-icon stats-icon-lg"><i class="fa fa-users fa-fw"></i></div>
+					</a>
+					<br>
+					<a href="{{ url('Mr_Administrator/proyectos') }}">
+			        <div class="widget widget-stats bg-red">
 			            <div class="stats-title">Proyectos</div>
 			            <div class="stats-number"></div>
 			            <div class="stats-progress progress">
                             <div class="progress-bar" style="width: 76.3%;"></div>
                         </div>
                         <div class="stats-desc">Ver Proyectos</div>
+			        </div>
+			        </a>
+			        <br>
+					<a href="{{ url('Mr_Administrator/semilleros') }}">
+			        <div class="widget widget-stats bg-blue">
+			            <div class="stats-title">Semilleros</div>
+			            <div class="stats-number"></div>
+			            <div class="stats-progress progress">
+                            <div class="progress-bar" style="width: 76.3%;"></div>
+                        </div>
+                        <div class="stats-desc">Ver Semilleros</div>
 			        </div>
 			        </a>
 			        <br>
