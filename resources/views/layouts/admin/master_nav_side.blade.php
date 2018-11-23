@@ -34,6 +34,12 @@
 						    <span>Proyectos</span>
 					    </a>
 					</li>
+					<li>
+						<a href="{{ url('Mr_Administrator/semilleros') }}">
+						    <i class="fa fa-users"></i>
+						    <span>Semilleros</span>
+					    </a>
+					</li>
 					<li class="has-sub">
 						<a href="javascript:;">
 						    <b class="caret pull-right"></b>

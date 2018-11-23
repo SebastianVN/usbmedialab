@@ -42,7 +42,7 @@ $proyectos = Proyecto::orderBy('id', 'desc')->get();
                             <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                             <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                         </div>
-                        <h4 class="panel-title">Usuarios 42ndStudio Website</h4>
+                        <h4 class="panel-title">Proyectos usbmedialab Website</h4>
                     </div>
                     <div class="panel-body">
                     <div id="error_display"></div>
@@ -147,19 +147,19 @@ $proyectos = Proyecto::orderBy('id', 'desc')->get();
 @section('scripts')
 	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
     <meta name="_token" content="{!! csrf_token() !!}" />
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/jquery.dataTables.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/dataTables.bootstrap.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/dataTables.buttons.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/buttons.bootstrap.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/buttons.flash.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/jszip.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/pdfmake.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/vfs_fonts.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/buttons.html5.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/buttons.print.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/dataTables.responsive.min.js"></script>
-	<script src="http://localhost/usbmedialab2/resources/assets/js/admin/admin_apps.min.js"></script> 
-    <script src="http://localhost/usbmedialab2/resources/assets/js/admin/admin_proyecto.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/jquery.dataTables.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.bootstrap.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.buttons.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.bootstrap.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.flash.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/jszip.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/pdfmake.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/vfs_fonts.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.html5.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/buttons.print.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/dataTables.responsive.min.js"></script>
+	<script src="http://localhost/usbmedialab/resources/assets/js/admin/admin_apps.min.js"></script> 
+    <script src="http://localhost/usbmedialab/resources/assets/js/admin/admin_proyecto.js"></script>
 
 	<!-- ================== END PAGE LEVEL JS ================== -->
 	
