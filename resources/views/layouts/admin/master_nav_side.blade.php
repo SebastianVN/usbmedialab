@@ -34,7 +34,7 @@
 						    <span>Proyectos</span>
 					    </a>
 					</li>
-					<li class="has-sub">
+					<!--<li class="has-sub">
 						<a href="javascript:;">
 						    <b class="caret pull-right"></b>
 						    <i class="fa fa-sitemap"></i>
@@ -44,7 +44,7 @@
 						    <li><a href="{{ url('Mr_Administrator/site') }}">Administrar Paginas</a></li>
 						    <li><a href="{{ url('Mr_Administrator/site/reports') }}">Reportes</a></li>
 						</ul>
-					</li>
+					</li>-->
 			        <!-- begin sidebar minify button -->
 					<li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
 			        <!-- end sidebar minify button -->

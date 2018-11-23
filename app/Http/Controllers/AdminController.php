@@ -22,6 +22,7 @@ use App\SentMail;
 use App\BlogPost;
 use App\BlogTag;
 use App\Blogger;
+use App\Proyecto;
 use App\SystemNotification;
 use App\User;
 use Carbon\Carbon;
@@ -142,6 +143,60 @@ class AdminController extends Controller
 
     public function social_media(){
         return View('admin.social_media');
+    }
+
+    public function crear_proyecto(Request $request){
+        $this->validate($request,[
+            'nombre'=>'required|string',
+            'lider'=>'required|string',
+            'objetivo'=>'required|string',
+            'mision'=>'required|string',
+            'vision'=>'required|string',
+        ]);
+        $proyecto = new Proyecto;
+        $proyecto->nombre = $request->nombre;
+        $proyecto->lider = $request->lider;
+        $proyecto->objetivo = $request->objetivo;
+        $proyecto->mision = $request->mision;
+        $proyecto->vision = $request->vision;
+        $proyecto->save();
+        return response()->json(['nombre'=>$request->nombre]);
+
+    }
+    public function deleteProject(Request $request){
+        $this->validate($request,[
+            'id'=>'required|integer|min:0',
+        ]);
+        $proyecto = Proyecto::find($request->id);
+        $proyecto->delete();
+
+    }
+    public function get_project(Request $request){
+        $this->validate($request,[
+            'id'=>'required|integer|min:0',
+        ]);
+        $project = Proyecto::where('id',$request->id)->first();
+        if(isset($project)){
+            return response()->json(['project'=>$project]);
+          }
+    }
+    public function editar_proyecto(Request $request){
+        $this->validate($request,[
+            'id'=>'required|integer|min:0',
+            'nombre'=>'required|string',
+            'lider'=>'required|string',
+            'objetivo'=>'required|string',
+            'mision'=>'required|string',
+            'vision'=>'required|string',
+        ]);
+        $proyecto = Proyecto::where('id',$request->id)->first();
+        $proyecto->nombre = $request->nombre;
+        $proyecto->lider = $request->lider;
+        $proyecto->objetivo = $request->objetivo;
+        $proyecto->mision = $request->mision;
+        $proyecto->vision = $request->vision;
+        $proyecto->save();
+        return response()->json(['nombre'=>$request->nombre]);
     }
     public function save_box(Request $request){
       $this->validate($request,[

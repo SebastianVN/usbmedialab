@@ -63,6 +63,10 @@ Route::group(['middleware' => 'admin'], function(){
         Route::post('/Mr_Administrator/search_user', 'AdminController@search_user');
         //Proyectos
         Route::get('/Mr_Administrator/proyectos','AdminController@proyecto');
+        Route::post('/Mr_Administrator/crear_proyecto', 'AdminController@crear_proyecto');
+        Route::post('/Mr_Administrator/deleteProject', 'AdminController@deleteProject');
+        Route::post('/Mr_Administrator/get_project','AdminController@get_project');
+        Route::post('/Mr_Administrator/editar_proyecto','AdminController@editar_proyecto');
         //Galeria
         Route::get('/Mr_Administrator/gallery/{category_id?}', 'AdminController@gallery');
         Route::post('/Mr_Administrator/gallery/save_image', 'AdminController@save_image');
